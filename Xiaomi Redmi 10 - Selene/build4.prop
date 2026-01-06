@@ -21,6 +21,8 @@ ro.system.build.version.incremental=V14.0.6.0.TKUMIXM
 ro.system.build.version.release=13
 ro.system.build.version.release_or_codename=13
 ro.system.build.version.sdk=31
+ro.build.expect.bootloader=HQ-171678
+ro.build.expect.baseband=alps-mp-s0.mssi1.tc8sp-mt6785
 ####################################
 # from out_vnd/target/product/selene/obj/PACKAGING/system_build_prop_intermediates/buildinfo.prop
 ####################################
