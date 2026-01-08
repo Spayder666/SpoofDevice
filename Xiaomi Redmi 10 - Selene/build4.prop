@@ -22,6 +22,7 @@ ro.system.build.version.release=13
 ro.system.build.version.release_or_codename=13
 ro.system.build.version.sdk=31
 
+ro.kernel=4.14.186-perf-g0c6efddd96c7
 ro.boot.hardware.sku=AL5186
 ro.build.expect.bootloader=V1.12.13_xiaomi.s0mp1.k85v1.64_P68
 ro.build.expect.baseband=g2507-nb65c-65761
