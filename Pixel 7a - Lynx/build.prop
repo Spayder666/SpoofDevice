@@ -2,7 +2,7 @@
 # from out/target/product/lynx/obj/ETC/android_info_prop_intermediates/android_info.prop
 ####################################
 
-ro.kernel=4.14.186-perf-g0c6efddd96c7
+ro.kernel=5.10.198-android13-4-00047-g7a2aa337ab82-ab11664978
 ro.boot.hardware.sku=gs201
 ro.build.expect.bootloader=lynx-1.0-9894666
 ro.build.expect.baseband=g5300g-230323-230525-B-10205083
