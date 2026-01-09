@@ -188,7 +188,33 @@ ro.vendor.qti.va_aosp.support=1
 ro.mediatek.version.branch=alps-mp-t0.mssi1.tc10sp
 ro.mediatek.version.release=alps-mp-t0.mp1.tc10sp-V1.125
 
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
 
+
+ro.com.google.gmsversion=13_202301
+
+
+ro.product.product.brand=samsung
+ro.product.product.device=a34x
+ro.product.product.manufacturer=samsung
+ro.product.product.model=SM-A346N
+ro.product.product.name=a34xks
+ro.product.build.date=Tue May 23 19:02:20 KST 2023
+ro.product.build.date.utc=1684836140
+ro.product.build.fingerprint=samsung/a34xks/a34x:13/TP1A.220624.014/A346NKSU2AWE6:user/release-keys
+ro.product.build.id=TP1A.220624.014
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=A346NKSU2AWE6
+ro.product.build.version.release=13
+ro.product.build.version.release_or_codename=13
+ro.product.build.version.sdk=33
+####################################
+# from packages/modules/Bluetooth/system/bluetooth.prop
+####################################
 
 
 
