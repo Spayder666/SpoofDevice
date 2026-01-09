@@ -1,9 +1,8 @@
 ####################################
 # from out/target/product/sunfish/obj/ETC/android_info_prop_intermediates/android_info.prop
 ####################################
-
-
-
+ro.kernel=4.14-android13-qpr3-4517-g4a58ab25bb-ab5782385
+ro.boot.hardware.sku=sm6150
 ro.build.expect.bootloader=s5-0.5-10252351
 ro.build.expect.baseband=g7150-00112-230505-B-10075601
 
