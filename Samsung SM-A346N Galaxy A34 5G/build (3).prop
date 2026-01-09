@@ -2,6 +2,11 @@
 # from generate-common-build-props
 # These properties identify this partition image.
 ####################################
+
+
+ro.com.google.gmsversion=13_202301
+
+
 ro.product.product.brand=samsung
 ro.product.product.device=a34x
 ro.product.product.manufacturer=samsung
