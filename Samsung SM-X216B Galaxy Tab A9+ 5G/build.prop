@@ -2,6 +2,28 @@
 # from generate-common-build-props
 # These properties identify this partition image.
 ####################################
+ro.product.product.brand=samsung
+ro.product.product.device=qssi
+ro.product.product.manufacturer=samsung
+ro.product.product.model=SM-X216B
+ro.product.product.name=gta9pxxx
+ro.product.build.date=Tue Jan 16 23:12:55 KST 2024
+ro.product.build.date.utc=1705414375
+ro.product.build.fingerprint=samsung/gta9pxxx/qssi:13/TP1A.220624.014/X216BXXS1AXA1:user/release-keys
+ro.product.build.id=TP1A.220624.014
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=X216BXXS1AXA1
+ro.product.build.version.release=13
+ro.product.build.version.release_or_codename=13
+ro.product.build.version.sdk=33
+####################################
+# from packages/modules/Bluetooth/system/bluetooth.prop
+####################################
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
 ro.product.system_ext.brand=samsung
 ro.product.system_ext.device=qssi
 ro.product.system_ext.manufacturer=samsung
