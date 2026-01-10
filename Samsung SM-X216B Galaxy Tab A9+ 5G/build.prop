@@ -1,3 +1,8 @@
+ro.kernel=5.10.178-android13-9-00033-gb5af1b97d201-dirty
+ro.boot.hardware.sku=nb65c
+ro.build.expect.bootloader=X216BXXU1AWJ1
+ro.build.expect.baseband=X216BXXU1AWJ1
+
 ####################################
 # from generate-common-build-props
 # These properties identify this partition image.
