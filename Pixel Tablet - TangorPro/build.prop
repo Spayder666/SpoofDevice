@@ -2,6 +2,13 @@
 # from generate-common-build-props
 # These properties identify this partition image.
 ####################################
+5.10.1-android-gs-tangorpro-3.1-android13
+ro.kernel=5.10.1-android-gs-tangorpro-3.1-android13
+ro.boot.hardware.sku=gs201
+ro.build.expect.bootloader=tangorpro-1.0-9883529
+ro.build.expect.baseband=g5300g-230805-230828-B-15083042
+
+
 ro.product.vendor.brand=google
 ro.product.vendor.device=tangorpro
 ro.product.vendor.manufacturer=Google
@@ -23,7 +30,7 @@ ro.vendor.build.version.sdk=33
 ####################################
 # from out/target/product/tangorpro/obj/ETC/android_info_prop_intermediates/android_info.prop
 ####################################
-ro.build.expect.bootloader=tangorpro-1.0-9883529
+
 ####################################
 # from variable ADDITIONAL_VENDOR_PROPERTIES
 ####################################
