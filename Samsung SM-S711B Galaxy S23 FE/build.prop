@@ -3,7 +3,7 @@
 # These properties identify this partition image.
 ####################################
 
-ro.kernel=5.10.178-android13-9-00033-gb5af1b97d201-dirty
+ro.kernel=5.10.142-android13-4-00317-gb97d201498gd2
 ro.boot.hardware.sku=XS1A4
 ro.build.expect.bootloader=S711BXXS1AWJ7
 ro.build.expect.baseband=S711BXXS1AWJ7
