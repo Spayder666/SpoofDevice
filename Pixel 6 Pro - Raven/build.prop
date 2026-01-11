@@ -3,11 +3,10 @@
 # These properties identify this partition image.
 ####################################
 
-ro.kernel=5.10.1-android-gs-tangorpro-3.1-android13
-ro.boot.hardware.sku=gs201
-ro.build.expect.bootloader=tangorpro-1.0-9883529
-ro.build.expect.baseband=g5300g-230805-230828-B-15083042
-
+ro.kernel=5.10.3-android-gs-raven-5-android13
+ro.boot.hardware.sku=gs202
+ro.build.expect.bootloader=slider-1.2-8739948
+ro.build.expect.baseband=g5123b-102852-220720-B-8851166
 
 ro.product.system_ext.brand=google
 ro.product.system_ext.device=raven
@@ -112,7 +111,87 @@ ro.product.build.version.sdk=33
 ####################################
 # from variable ADDITIONAL_PRODUCT_PROPERTIES
 ####################################
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.vendor.brand=google
+ro.product.vendor.device=raven
+ro.product.vendor.manufacturer=Google
+ro.product.vendor.model=Pixel 6 Pro
+ro.product.vendor.name=raven
+ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.vendor.product.cpu.abilist64=arm64-v8a
+ro.vendor.build.date=Wed Aug 10 01:57:47 UTC 2022
+ro.vendor.build.date.utc=1660096667
+ro.vendor.build.fingerprint=google/raven/raven:13/TP1A.220905.004/8927612:user/release-keys
+ro.vendor.build.id=TP1A.220905.004
+ro.vendor.build.tags=release-keys
+ro.vendor.build.type=user
+ro.vendor.build.version.incremental=8927612
+ro.vendor.build.version.release=13
+ro.vendor.build.version.release_or_codename=13
+ro.vendor.build.version.sdk=33
 
+ro.vndk.version=33
+ro.bionic.arch=arm64
+ro.bionic.cpu_variant=cortex-a55
+ro.bionic.2nd_arch=arm
+ro.bionic.2nd_cpu_variant=cortex-a53
+persist.sys.dalvik.vm.lib.2=libart.so
+dalvik.vm.isa.arm64.variant=cortex-a55
+dalvik.vm.isa.arm64.features=default
+dalvik.vm.isa.arm.variant=cortex-a53
+dalvik.vm.isa.arm.features=default
+ro.minui.pixel_format=ABGR_8888
+ro.boot.dynamic_partitions=true
+ro.product.first_api_level=31
+ro.vendor.build.security_patch=2022-09-05
+ro.product.board=raven
+ro.board.platform=gs101
+ro.hwui.use_vulkan=true
+ro.sf.lcd_density=560
+ro.build.ab_update=true
+####################################
+# from variable PRODUCT_VENDOR_PROPERTIES
+####################################
+ro.hardware.vulkan=mali
+ro.hardware.egl=mali
+ro.opengles.version=196610
+graphics.gpu.profiler.support=true
+debug.renderengine.backend=skiaglthreaded
+external_storage.projid.enabled=1
+external_storage.casefold.enabled=1
+external_storage.sdcardfs.enabled=0
+ro.virtual_ab.enabled=true
+ro.virtual_ab.compression.enabled=true
+ro.virtual_ab.userspace.snapshots.enabled=true
+ro.virtual_ab.io_uring.enabled=true
+ro.virtual_ab.compression.xor.enabled=true
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.5
+dalvik.vm.heapminfree=8m
+dalvik.vm.heapmaxfree=32m
+ro.zygote=zygote64_32
+ro.crypto.metadata_init_delete_all_keys.enabled=true
+ro.soc.manufacturer=Google
+ro.soc.model=Tensor
+ro.vendor.build.svn=37
+persist.vendor.udfps.lhbm_controlled_in_hal_supported=true
+persist.vendor.udfps.als_feed_forward_supported=true
+persist.vendor.camera.exif_reveal_make_model=true
+vendor.zram.size=3g
+# Removed by post_process_props.py because overridden by ro.zygote=zygote64_32
+#ro.zygote?=zygote32
+ro.logd.size.stats=64K
+log.tag.stats_log=I
+ro.carrier=unknown
+ro.config.notification_sound=OnTheHunt.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg
+ro.apex.updatable=true
 
 
 
