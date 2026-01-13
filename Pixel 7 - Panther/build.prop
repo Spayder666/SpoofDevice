@@ -1,4 +1,7 @@
 
+
+ro.kernel=5.10.198-android13-4-00047-g7a2aa337ab82-ab11664978
+ro.boot.hardware.sku=GS201
 ro.build.expect.bootloader=cloudripper-1.0-9592577
 ro.build.expect.baseband=g5300g-221229-230210-B-9589366
 
@@ -161,3 +164,4 @@ ro.board.platform=gs201
 ro.hwui.use_vulkan=true
 ro.sf.lcd_density=420
 ro.build.ab_update=true
+
