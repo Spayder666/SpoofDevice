@@ -8,12 +8,7 @@ ro.boot.hardware.sku=gs201
 ro.build.expect.baseband=g7250-00296-231207-B-11190276
 ro.build.expect.bootloader=b9-0.6-11259359
 
-Pixel 5a - Barbet
-ro.product.product.name=barbet
 
-####################################
-# from variable ADDITIONAL_VENDOR_PROPERTIES
-####################################
 ro.soc.model=SM7250
 ro.opengles.version=196610
 ro.soc.manufacturer=Qualcomm
@@ -175,3 +170,4 @@ ro.product.build.version.sdk=34
 # from device/google/redbull/product.prop
 ####################################
 ro.netflix.bsp_rev=Q7250-19133-1
+
