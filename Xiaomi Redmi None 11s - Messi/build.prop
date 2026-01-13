@@ -2,6 +2,12 @@
 # from generate-common-build-props
 # These properties identify this partition image.
 ####################################
+
+ro.kernel=4.15-android13-414117-perf-022c
+ro.boot.hardware.sku=jlx83
+ro.build.expect.bootloader=alps-mp-r0.mp8.tc8sp3-V1.5.1
+ro.build.expect.baseband=g7150-00112-230505-B-10075601
+
 ro.product.system.brand=Redmi
 ro.product.system.device=missi
 ro.product.system.manufacturer=Xiaomi
@@ -164,3 +170,4 @@ ro.product.board=water
 ro.board.platform=mt6765
 ro.hwui.use_vulkan=
 ro.build.ab_update=true
+
