@@ -3,6 +3,16 @@
 # from generate-common-build-props
 # These properties identify this partition image.
 ####################################
+
+####################################
+# from out/target/product/oriole/obj/ETC/android_info_prop_intermediates/android_info.prop
+####################################
+ro.build.expect.bootloader=slider-1.2-9152140
+ro.build.expect.baseband=g5123b-107485-221101-B-9242015
+
+ro.kernel=5.10.214-android13-4-00015-g54748cd9e7
+ro.boot.hardware.sku=gs101
+
 ro.product.vendor_dlkm.brand=google
 ro.product.vendor_dlkm.device=oriole
 ro.product.vendor_dlkm.manufacturer=Google
@@ -44,14 +54,7 @@ ro.vendor.build.version.incremental=9244662
 ro.vendor.build.version.release=13
 ro.vendor.build.version.release_or_codename=13
 ro.vendor.build.version.sdk=33
-####################################
-# from out/target/product/oriole/obj/ETC/android_info_prop_intermediates/android_info.prop
-####################################
-ro.build.expect.bootloader=slider-1.2-9152140
-ro.build.expect.baseband=g5123b-107485-221101-B-9242015
-####################################
-# from variable ADDITIONAL_VENDOR_PROPERTIES
-####################################
+
 ro.vndk.version=33
 ro.bionic.arch=arm64
 ro.bionic.cpu_variant=cortex-a55
@@ -188,4 +191,5 @@ ro.product.ab_ota_partitions=abl,bl1,bl2,bl31,boot,dtbo,gsa,ldfw,modem,pbl,produ
 ####################################
 
 require version-vendor=1667345018
+
 
