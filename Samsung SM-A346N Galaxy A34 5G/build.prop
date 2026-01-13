@@ -2,6 +2,12 @@
 # from generate-common-build-props
 # These properties identify this partition image.
 ####################################
+
+ro.kernel=4.19.191-28577532abA346NKSU2AWE6
+ro.boot.hardware.sku=tc10sp
+ro.build.expect.bootloader=A346NKSU2AWE6
+ro.build.expect.baseband=A346NKSU2AWE6
+
 ro.product.vendor.brand=samsung
 ro.product.vendor.device=a34x
 ro.product.vendor.manufacturer=samsung
