@@ -35,7 +35,7 @@ ro.vendor.build.version.incremental=1704264228107
 ro.product.vendor.brand=qti
 ro.product.vendor.device=lahaina
 ro.product.vendor.manufacturer=QUALCOMM
-ro.product.vendor.model=Lahaina for arm64
+ro.product.vendor.model=Lahaina
 ro.product.vendor.name=lahaina
 # end common build properties
 #
@@ -150,4 +150,5 @@ ro.product.build.version.sdk=33
 ro.build.device_family=OPSM8350
 oplus.dex.tempcontrol=true
 ro.soc.manufacturer=Qualcomm
+
 
